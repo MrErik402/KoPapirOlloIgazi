@@ -1,0 +1,26 @@
+body{
+    color: green;
+}
+div{
+    background-color: white;
+    box-shadow: 10px 5px 5px green ;
+    border: 3px black solid;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#gepPont{
+    color: red;
+}
+#jatekosPont{
+    color: red;
+}
+img{
+    width: 250px;
+    
+    height: 200px;
+}
+#kepekHelye{
+    display: inline;
+}
