@@ -1,7 +1,7 @@
 body{
     color: green;
 }
-div{
+main{
     background-color: white;
     box-shadow: 10px 5px 5px green ;
     border: 3px black solid;
@@ -17,9 +17,8 @@ div{
     color: red;
 }
 img{
-    width: 250px;
-    
-    height: 200px;
+    width: 100px;
+    height: 75px;
 }
 #kepekHelye{
     display: inline;
