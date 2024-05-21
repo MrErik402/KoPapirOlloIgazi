@@ -9,10 +9,14 @@ function KivalasztasKO(){
     let nyertes = Nyertes(jatekosValasztas, gepValasztas);
     if(nyertes == "GépNyert"){
         gepPont++;
+        const eredmeny = document.getElementById("eredmenyHelye");
+        eredmeny.innerHTML = "Erdemény: Gép nyert!"
         GepPontIras(gepPont);
     }
     else if(nyertes == "JátékosNyert"){
         jatekosPont++;
+        const eredmeny = document.getElementById("eredmenyHelye");
+        eredmeny.innerHTML = "Erdemény: Játékos nyert!"
         JatekosPontIras(jatekosPont);
     }
     Visszaallitas(kep);
@@ -25,11 +29,15 @@ function KivalasztasOLLO(){
     let nyertes = Nyertes(jatekosValasztas, gepValasztas);
     if(nyertes == "GépNyert"){
         gepPont++;
+        const eredmeny = document.getElementById("eredmenyHelye");
+        eredmeny.innerHTML = "Erdemény: Gép nyert!"
         GepPontIras(gepPont);
         
     }
     else if(nyertes == "JátékosNyert"){
         jatekosPont++;
+        const eredmeny = document.getElementById("eredmenyHelye");
+        eredmeny.innerHTML = "Erdemény: Játékos nyert!"
         JatekosPontIras(jatekosPont);
     }
     Visszaallitas(kep);
@@ -42,10 +50,14 @@ function KivalasztasPAPIR(){
     let nyertes = Nyertes(jatekosValasztas, gepValasztas);
     if(nyertes == "GépNyert"){
         gepPont++;
+        const eredmeny = document.getElementById("eredmenyHelye");
+        eredmeny.innerHTML = "Erdemény: Gép nyert!"
         GepPontIras(gepPont);
     }
     else if(nyertes == "JátékosNyert"){
         jatekosPont++;
+        const eredmeny = document.getElementById("eredmenyHelye");
+        eredmeny.innerHTML = "Erdemény: Játékos nyert!"
         JatekosPontIras(jatekosPont);
     }
     setTimeout(10000);

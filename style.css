@@ -5,7 +5,7 @@ main{
     background-color: white;
     box-shadow: 10px 5px 5px green ;
     border: 3px black solid;
-    width: 500px;
+    width: 360px;
     margin: 0 auto;
     text-align: center;
     
@@ -17,7 +17,8 @@ main{
     color: red;
 }
 img{
-    width: 100px;
+    min-width: 75px;
+    max-width: 100px;
     height: 75px;
 }
 #kepekHelye{
