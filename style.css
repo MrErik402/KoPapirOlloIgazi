@@ -25,11 +25,7 @@ img{
 }
 @media screen and (max-width: 520px)
 {
-    img{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
+    
     main{
         background-color: white;
         box-shadow: 10px 5px 5px green ;
